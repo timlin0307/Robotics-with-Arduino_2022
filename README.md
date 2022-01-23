@@ -22,12 +22,13 @@
     - Nous pensons qu’il serait intéressant de faire une statuette nous même que l’on placerait sur le pied d’estale (2 pts).
     - Puis, le robot enlèverait la statuette du pied d’estale (5pts) pour la mettre sur la vitrine (15pts) (vitrine est aussi faite par l’équipe: 2 pts).
     - En posant la statuette, la vitrine s’illumine (5 pts).
-  - **On déplace les échantillons** : En priorité, déplacer les échantillons rapportant le plus de points. Total : 13 pts.
-    - Ceux devant être déposés dans la galerie (3 pts chacun pour un total de 9)
+  - **On déplace les échantillons** : Total : 13 pts
+    - En priorité, déplacer les échantillons rapportant le plus de points.
+    - Ceux devant être déposés dans la galerie (3 pts chacun pour un total de 9).
     - Ceux devant être enlevés des distributeurs (1 pts chacun pour un total de 4).
-  - **Les carrés de fouilles** : Total: 10 pts.
+  - **Les carrés de fouilles** : Total: 10 pts
     - La stratégie serait de prendre chaque résistance une par une et de retourner un seul carreau appartenant à notre équipe (10pts). Faire plus prendrait trop de temps, et retourner un carreau rouge nous ferait perdre l’intégralité des points gagnés dans cette épreuve.
-  - **Revenir au campement à la fin** : Total : 20 pts.
+  - **Revenir au campement à la fin** : Total : 20 pts
 
 ---
 ## Annuaires
