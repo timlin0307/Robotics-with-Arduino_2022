@@ -2,50 +2,50 @@
 
 ---
 ## Introduction
-- C'est un projet de cours Project Thématique à ECM (2A). Le projet a pour objectif de se familiariser avec les problématiques rencontrées en robotique, il s’organisera en synergie avec le groupe d’élèves de 2A participant à la coupe de France de robotique.
-- L’objectif de ce projet est représentation de l’École au plus grand événement de robotique national : La Coupe de France de Robotique (CFR) 2021.
+- C'est un projet de cours Project Thématique à ECM (2A). L’objectif de notre projet transverse est de construire un robot pour pouvoir participer à la Coupe de France de Robotique (CFR) 2022.
+- Pour ce faire, nous devons construire un robot totalement autonome qui devra réaliser le plus d’actions prédéfinies par le cahier des charges de la compétition afin de prendre le plus de points possible.
 
 ---
 ## Règlement de CFR Général
-- Cette année (comme l’an dernier) , la CFR a pour thème : « Sail the World »; et se concentre sur le domaine maritime.
-- Nous devons donc concevoir un robot et un phare qui vont devoir réaliser des tâches en rapport avec ce thème afin de gagner des points. Lors du concours, les robots des différentes équipes se rencontrent lors de matchs opposants deux équipes sur un terrain de 2 mètres par 3 mètres :
+- Cette année, la CFR a pour thème : « Age of Robots ».
+- Nous devons donc concevoir un robot et un bras manipulateur qui vont devoir réaliser des tâches en rapport avec ce thème afin de gagner des points. Lors du concours, les robots des différentes équipes se rencontrent lors de matchs opposants deux équipes sur un terrain de 2 mètres par 3 mètres :
   <p align="center">
-    <img src="https://user-images.githubusercontent.com/54052564/150683843-1a4257ba-3c8e-430c-8533-80842a31d256.png" />
+    <img src="https://user-images.githubusercontent.com/54052564/150689646-fb178456-1316-4dc5-a849-505d54623704.png" />
   </p>
 - Les robots de chaque équipe commencent dans leurs aires de départ respectives et ont alors 100 secondes pour réaliser différentes tâches afin de gagner un maximum de points.
 
 ---
 ## Stratégie
-- En cours de traitement
+- L’équipe a jugé que de retourner chaque échantillon et de le placer au bon endroit serait trop compliqué techniquement et trop chronophage.
+- Ainsi tel est notre stratégie : (Total de points de la stratégie choisie : 72 points)
+  - **Gagner des points avec la statuette** : Total : 29 pts
+    - Nous pensons qu’il serait intéressant de faire une statuette nous même que l’on placerait sur le pied d’estale (2 pts).
+    - Puis, le robot enlèverait la statuette du pied d’estale (5pts) pour la mettre sur la vitrine (15pts) (vitrine est aussi faite par l’équipe: 2 pts).
+    - En posant la statuette, la vitrine s’illumine (5 pts).
+  - **On déplace les échantillons** : En priorité, déplacer les échantillons rapportant le plus de points. Total : 13 pts.
+    - Ceux devant être déposés dans la galerie (3 pts chacun pour un total de 9)
+    - Ceux devant être enlevés des distributeurs (1 pts chacun pour un total de 4).
+  - **Les carrés de fouilles** : Total: 10 pts.
+    - La stratégie serait de prendre chaque résistance une par une et de retourner un seul carreau appartenant à notre équipe (10pts). Faire plus prendrait trop de temps, et retourner un carreau rouge nous ferait perdre l’intégralité des points gagnés dans cette épreuve.
+  - **Revenir au campement à la fin** : Total : 20 pts.
 
 ---
 ## Annuaires
 ```
 Robotics with Arduino 2022 :.
 ├─ Libraries
-│  ├─ BaseRoulante
-│  │  ├─ BaseRoulante.cpp
-│  │  ├─ BaseRoulante.h
+│  ├─ RPLidarDriver
+│  │  ├─ RPLidar.cpp
+│  │  ├─ RPLidar.h
 │  │  └─ ...
 │  │
-│  ├─ DCMotor
-│  │  ├─ DCMotor.cpp
-│  │  ├─ DCMotor.h
-│  │  └─ ...
-│  │
-│  └─ PID_v1
-│     ├─ PID_v1.cpp
-│     ├─ PID_v1.h
+│  └─ SimpleTimer
+│     ├─ SimpleTimer.cpp
+│     ├─ SimpleTimer.h
 │     └─ ...
 │
-├─ Phare
-│  └─ Phare.ino
-│
-├─ SEN-Color
-│  └─ SEN-Color.ino
-│
-├─ Trajet
-│  └─ Trajet.ino
+├─ Robot_Trajet
+│  └─ Robot_Trajet.ino
 │
 └─ README.md
 ```
